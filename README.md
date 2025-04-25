@@ -3,6 +3,8 @@
 ## Overview
 `VarSetUpdate` is a FreeCAD macro designed to streamline the process of updating variable names and properties in VarSet objects. Originally authored by **Mathias L.** and extended by **[DesignWeaver](https://forum.freecad.org/memberlist.php?mode=viewprofile&u=80381&sid=658045436126114983df20117ee27bf5) (NSUBB)**, this utility provides a robust toolset for managing properties, ensuring compatibility with existing relationships, and simplifying modifications.
 
+![Macro GUI image](VarSetUpdateGUI_0314.png)
+
 ## Version History
 - **v0.1**: Initial version by [Mathias L.](https://github.com/mathiaslec) originally shared in [this post](https://github.com/FreeCAD/FreeCAD/issues/16222#issuecomment-2754714033). This version provided basic functionality to update a variable name in VarSet.
 - **v0.3.14**: Extended by [DesignWeaver](https://forum.freecad.org/memberlist.php?mode=viewprofile&u=80381&sid=658045436126114983df20117ee27bf5) (NSUBB) to include several advanced features and improvements:
