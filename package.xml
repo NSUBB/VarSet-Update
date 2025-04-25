@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+<package>
 
-  <name>VarSetUpdate</name>
+  <name>VarSet Update</name>
 
   <description>Change the name or other attributes of VarSet properties (variables). The macro facilitate selection of properties and fields for changing the attributes. It works by backing up the existing property and replacing it with a new one with the modified properties. During the process all expression references in the document are updated to reflect the name change.</description>
+
+  <MacroFilename>VarSetUpdate_v0.3.14.FCMacro</MacroFilename>
 
   <version>0.3.14</version>
 
