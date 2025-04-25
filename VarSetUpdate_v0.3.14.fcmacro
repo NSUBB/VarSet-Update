@@ -1,34 +1,29 @@
 # Update VarSet labels :
 # 0. Oops, you want to change a variable name in VarSet :(
-# 1. Click the VarSet Macro
-# 2. Enter the label of the variable you want to change
-# 3. Add a new name
-# 4. Click Update
+# 1. Execute VarSetUpdate macro from the Macro > Macros... dialog.
+# 2. Use the dropdowns to select the VarSet and Poperty (variable) to be updated.
+# 3. Modify the name or other attributes as necessary in the respective input fields.
+# 4. Click Update button.
 # 5. Voila !
 
-__Title__ = "VarSetUpdate"
-__Author__ = "Mathias L."
-__Version__ = "0.1"
-__Date__ = "2025-03-01"
-__Comment__ = "This macro updates a variable in VarSet."
-__Web__ = " "
+__Name__ = "VarSet Update"
+__Comment__ = "This macro updates the name or other attribute of a VarSet property (variable) via backup and recreation of the property."
+__Author__ = "Mathias L., NSUBB"
+__Version__ = "0.3.14"
+__Date__ = "2025-04-24"
+__License__ = "GNU GPL v3.0"
+__Web__ = "https://github.com/NSUBB/VarSet-Update"
 __Wiki__ = " "
 __Icon__ = "VarSetUpdate.svg"
 __IconW__ = " "
-__Help__ = " "
-__Status__ = " "
+__Help__ = "After launch, select the VarSet, then the Property from the dropdowns, change attributes, click Update. Repeat for additional changes. Close when finished."
+__Status__ = "Beta"
 __Requires__ = "freecad 1.0"
-__Communication__ = " "
+__Communication__ = "https://github.com/NSUBB/VarSet-Update/issues"
+__Files__ = "VarSetUpdate_v0.3.14.FCMacro, VarSetUpdate.svg"
 
-# v0.1.01 4/17/2025 Modified by DesignWeaver3D to allow the user to input a custom Group.
-# v0.1.02 4/17/2025 Modified by DesignWeaver3D to allow user-defined VarSet names.
-# v0.1.03 4/17/2025 Modified by DesignWeaver3D to add a search functionality for VarSet properties.
-# v0.1.04 4/17/2025 Modified by DesignWeaver3D to add custom Tool Tip.
-# v0.2.01 4/18/2025 Modified by DesignWeaver3D to Change VarSet name input to drop list.
-# v0.2.02 4/18/2025 Modified by DesignWeaver3D to Change Old Property name input to drop list.
-# v0.2.03 4/18/2025 Modified by DesignWeaver3D to add VarSet Label name.
-# v0.3.01 4/20/2025 Modified by DesignWeaver3D to delete old property prior to create new property to allow keep same name.
-# v0.3.01 4/20/2025 Modified by DesignWeaver3D to add changing of property Type, e.g., Length, Angle, Float, etc.
+# v0.1 3/26/2025 Original version by Mathias L. posted to https://github.com/FreeCAD/FreeCAD/issues/16222#issuecomment-2754714033
+# v0.3.14 4/24/2025 Modified by NSUBB (FreeCAD Forum user DesignWeaver) to add many additional features.
 
 import FreeCAD
 from PySide import QtGui

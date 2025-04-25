@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<package>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
 
-  <name>VarSet Update</name>
+  <name>VarSetUpdate</name>
 
-  <description>Change the name or other attributes of VarSet properties (variables). The macro facilitate selection of properties and fields for changing the attributes. It works by backing up the existing property and replacing it with a new one with the modified properties. During the process all expression references in the document are updated to reflect the name change.</description>
+  <description>`VarSetUpdate` is a FreeCAD macro designed to streamline the process of updating variable names and properties in VarSet objects. Originally authored by **Mathias L.** and extended by **[DesignWeaver](https://forum.freecad.org/memberlist.php?mode=viewprofile&amp;u=80381&amp;sid=658045436126114983df20117ee27bf5) (NSUBB)**, this utility provides a robust toolset for managing properties, ensuring compatibility with existing relationships, and simplifying modifications.</description>
 
-  <MacroFilename>VarSetUpdate_v0.3.14.FCMacro</MacroFilename>
-
-  <version>0.3.14</version>
+  <version>2025.4.25</version>
 
   <date>2025-04-25</date>
 
-  <license file="https://github.com/NSUBB/VarSet-Update/blob/main/LICENSE">GPL-3.0-or-later</license>
+  <maintainer email="insubbeckley@gmail.com">NSUBB</maintainer>
+
+  <license file="LICENSE">GPLv3</license>
 
   <url branch="main" type="repository">https://github.com/NSUBB/VarSet-Update</url>
 
-  <url type="readme">https://github.com/NSUBB/VarSet-Update/blob/main/README.md</url>
+  <url type="readme">https://github.com/NSUBB/VarSet-Update/raw/main/README.md</url>
 
-  <icon>https://github.com/NSUBB/VarSet-Update/blob/main/VarSetUpdate.svg</icon>
+  <icon>VarSetUpdate.svg</icon>
 
 </package>
