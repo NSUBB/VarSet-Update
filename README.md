@@ -6,7 +6,7 @@
 
 This macro is now maintained in the [Detessellate](https://github.com/DesignWeaver3D/Detessellate) workbench repo.
 
-**New location:** [`Detessellate/Macros/VarSetUpdate/`](https://github.com/DesignWeaver3D/Detessellate/tree/main/Macros/VarSetUpdate)
+**New location:** [`Detessellate/Macros/VarSet-Update/`](https://github.com/DesignWeaver3D/Detessellate/tree/main/Macros/VarSet-Update)
 
 ---
 
